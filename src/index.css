@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root{
+  --main-font-size: 1.5em;
+  --text-font-weight: 550;  
+  --main-font-family: 'Montserrat', sans-serif;
+  --Bold-font-family: 'Golos Text', sans-serif;
+  --text-font-family: 'Roboto Condensed', sans-serif;
+  --big-font-family:'Inter', sans-serif;;
+
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.body_container{
+  /* width: 100vw; */
+  margin: 0.5em 8em;
+  /* width: 100%; */
+}
+
+
+@media screen and (max-width:768px) {
+  .body_container {
+      margin: 0.1em .3em;
+    }
+}
+
+
